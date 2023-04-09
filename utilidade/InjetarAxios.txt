@@ -1,3 +1,5 @@
+Inspencionar elemento - Console - colar no console e dar enter
+
 var axios = document.createElement('script');
 axios.src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.5/axios.min.js";
 axios.append(b.integrity = "sha512-nnNHpffPSgINrsR8ZAIgFUIMexORL5tPwsfktOTxVYSv+AUAILuFYWES8IHl+hhIhpFGlKvWFiz9ZEusrPcSBQ==");

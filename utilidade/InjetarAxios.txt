@@ -1,0 +1,6 @@
+var axios = document.createElement('script');
+axios.src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.5/axios.min.js";
+axios.append(b.integrity = "sha512-nnNHpffPSgINrsR8ZAIgFUIMexORL5tPwsfktOTxVYSv+AUAILuFYWES8IHl+hhIhpFGlKvWFiz9ZEusrPcSBQ==");
+axios.append(b.crossOrigin = "anonymous")
+axios.append(b.referrerPolicy ="no-referrer");
+document.body.appendChild(axios);

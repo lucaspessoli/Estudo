@@ -30,7 +30,7 @@ objs.forEach((element)=>{ //Exemplo utilizando o JSON criado localmente pra perc
 });
 
 
-axios.get("test.json") //da mesma forma que você usar as APIS pra resgatar o json dos sites, você consegue resgatar o json da sua pasta do projeto da mesma maneira
+axios.get("estudo5PessoasInfo.json") //da mesma forma que você usar as APIS pra resgatar o json dos sites, você consegue resgatar o json da sua pasta do projeto da mesma maneira
     .then((response)=>{ // response é o nome padrão pra coletar os dados, você pode nomear da forma que quiser.
         console.log(response);
     });

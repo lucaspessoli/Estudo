@@ -19,6 +19,13 @@
     function oi(){
         document.write("Minha função!");
     }
+    function setInformacoesPessoais(nome, sobrenome, idade){
+        return {nome:nome, sobrenome: sobrenome, idade: idade}; //Funcao que retorna em forma de OBJETOS, melhor explicado no estudo5
+    } 
+
+console.log(setInformacoesPessoais("marcao","pereira",15));
+
+
     //Condições e aplicação de função
     if(idade > 25){
         document.write("É maior que 25!");

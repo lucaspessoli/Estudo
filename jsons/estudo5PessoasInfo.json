@@ -1,0 +1,22 @@
+[
+    {
+        "nome": "Marcos",
+        "idade": 20,
+        "estudante": true,
+        "detalhesProfissao":{
+            "profissao": "Dev",
+            "empresa": "Google"
+        },
+        "aulasFavoritas": ["Matemática", "Filosofia", "Sociologia", "Fisica"]
+    },
+    {
+        "nome": "Jorge",
+        "idade": 32,
+        "estudante": false,
+        "detalhesProfissao":{
+            "profissao": "Caminhoneiro",
+            "empresa": "Caminhao"
+        },
+        "aulasFavoritas": ["Português", "Filosofia", "Educação Fisica", "História"]
+    }
+]

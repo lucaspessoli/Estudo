@@ -40,7 +40,7 @@ adicione:    "backend": "json-server --watch db.json --port 5000", tendo que fic
     "eject": "react-scripts eject"
   },
 ```
-feito isso abra um novo terminal e use o comando: "npm run backend" (o motivo para criar um novo terminal é pra que você consiga hostear
+feito isso abra um novo terminal e use o comando: "npm install json-server" e depois "npm run backend" (o motivo para criar um novo terminal é pra que você consiga hostear
 tanto o seu projeto principal e hostear também db.json para gets,posts e etc, fazendo isso você conseguirá criar a conexão na api sendo com
 axios ou get
 

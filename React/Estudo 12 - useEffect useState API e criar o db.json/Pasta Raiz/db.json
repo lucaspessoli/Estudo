@@ -1,0 +1,22 @@
+{
+  "userInfo": [
+    {
+      "id": 1,
+      "username": "Lucas",
+      "level": 2,
+      "sexo": "masculino"
+    },
+    {
+      "id": 2,
+      "username": "Maria",
+      "level": 5,
+      "sexo": "feminino"
+    },
+    {
+      "id": 3,
+      "username": "Matheus",
+      "level": 4,
+      "sexo": "masculino"
+    }
+  ]
+}

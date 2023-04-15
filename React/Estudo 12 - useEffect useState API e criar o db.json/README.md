@@ -59,6 +59,13 @@ useEffect(() =>{
 o uso do [] no final do useEffect impedirá que o comando seja solicitado infinitas vezes, solicitando apenas na renderização
 caso não usar o ", []" a consulta de dados na api vai ficar rodando infinitamente
 
+Explicação mais detalhada:
+Outro ponto interessante é sobre o useEffect. Na hora de buscar os dados, para que os mesmos aconteçam somente uma vez, é usado o useEffect (que por padrão tem que receber uma função e um array de dependências, este que no caso do vídeo está vazio). Ele somente será executado quando qualquer elemento deste array for modificado. E uma coisa interessante, sua execução é disparada a nível do componente, ou seja, diferente de uma função que é chamada pelo nome, este é chamado a cada mudança em qualquer elemento no array de dependências. Ou seja, sua execução está atrelada a nível de componente, e não por escopo de chaves. 
+
+Se no useEffect não for passado este array como segundo parâmetro, ele vai disparar toda vez que um evento acontecer em qualquer lugar dentro do componente.
+Se no mesmo o array estiver vazio (como no vídeo), ele executa apenas uma vez, exatamente na hora de carregar a página.
+E se caso tiver elementos no array (uma variável por exemplo), a cada mudança no elemento ele vai disparar.
+
 
 
 useState em termos técnicos: O useState é importante porque permite que você crie e manipule estados em componentes funcionais do React, o que permite que o componente responda a interações do usuário e atualize a interface de acordo com o estado atual. Isso é fundamental para a criação de interfaces dinâmicas e interativas.

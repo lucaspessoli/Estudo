@@ -1,0 +1,88 @@
+{
+  "userInfo": [
+    {
+      "id": 1,
+      "username": "Lucas",
+      "level": 2,
+      "sexo": "masculino"
+    },
+    {
+      "id": 2,
+      "username": "Maria",
+      "level": 5,
+      "sexo": "feminino"
+    },
+    {
+      "id": 3,
+      "username": "Matheus",
+      "level": 4,
+      "sexo": "masculino"
+    },
+    {
+      "id": 4,
+      "username": "dasdas",
+      "level": 2,
+      "sexo": "masculino"
+    },
+    {
+      "id": 5,
+      "username": "rtqwtwq",
+      "level": 2,
+      "sexo": "masculino"
+    },
+    {
+      "id": 6,
+      "username": "Marcos",
+      "level": 2,
+      "sexo": "masculino"
+    },
+    {
+      "id": 7,
+      "username": "Joana",
+      "level": 2,
+      "sexo": "masculino"
+    },
+    {
+      "id": 8,
+      "username": "Marcos do PNEU",
+      "level": 2,
+      "sexo": "masculino"
+    },
+    {
+      "id": 9,
+      "username": "a",
+      "level": 2,
+      "sexo": "masculino"
+    },
+    {
+      "id": 10,
+      "username": "a",
+      "level": 2,
+      "sexo": "masculino"
+    },
+    {
+      "id": 11,
+      "username": "Junhao",
+      "level": 2,
+      "sexo": "masculino"
+    },
+    {
+      "id": 12,
+      "username": "aa",
+      "level": 2,
+      "sexo": "masculino"
+    },
+    {
+      "id": 13,
+      "username": "das",
+      "level": 2,
+      "sexo": "masculino"
+    },
+    {
+      "id": 14,
+      "username": "Marcos",
+      "level": 2,
+      "sexo": "masculino"
+    }
+  ]
+}

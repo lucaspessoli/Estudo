@@ -1,0 +1,9 @@
+Usar useEffect com ,[] pra ser executado apenas uma vez na página, ou seja... geralmente na renderização da página irá executar o que tem dentro.
+EX: Bom para que quando for usar uma api em larga escala, ao renderizar a página ele irá salvar apenas uma vez em alguma array pra uso continuo dentro do código.
+
+
+css:
+margin-right: 10px - dá um espaçamento do componente pra direita
+margin: 0 auto; - Centraliza a div no meio da tela
+
+elemento:hover {} irá ser executado quando passar o mouse sobre o elemento, podendo alterar cor, colocar animação etc

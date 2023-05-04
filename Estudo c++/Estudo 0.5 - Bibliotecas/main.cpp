@@ -5,7 +5,7 @@
 
 int main(){
     
-    HWND janela = FindWindowA(NULL,"Steamd"); //HWND é um handler que serve pra localizar uma janela usado pra manipular redimensionamento da janela+
+    HWND janela = FindWindowA(NULL,"Steam"); //HWND é um handler que serve pra localizar uma janela usado pra manipular redimensionamento da janela+
     //enviar mensagens para a janela, alterar posição na tela, enfim... permite alterar todas as propriedades de uma janela +
     //no exemplo acima ele esta atribuindo a janela a variavel "janela" que possui o tipo HWND utilizando a função FindWindow +
     //como primeiro parâmetro é passado NULL, o primeiro parâmetro pede pra que seja informado qual subjanela será acessada +

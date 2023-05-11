@@ -1,0 +1,3 @@
+div se comportando de forma inesperada e sendo inserida embaixo da página ou desalinhada como o planejado
+
+solução: vertical-align: top;

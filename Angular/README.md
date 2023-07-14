@@ -21,3 +21,10 @@ Rodar pojeto:
 ```
 ng serve
 ```
+
+<h1 align="center">Estrutura</h1>
+
+<p>node_modules: Onde é instalado as depêndencias do projeto</p>
+<p>src: onde programa a aplicação</p>
+<p>src/app: Pasta principal para os componentes,services etc</p>
+<p>componentes: dividos em ts,html,css e testes</p>

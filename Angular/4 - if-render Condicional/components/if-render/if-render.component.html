@@ -1,0 +1,8 @@
+<p *ngIf="canShowMessage">O usuário é permitido a ver.</p>
+<p *ngIf="age>=18; else canNotRegister">Pode se registrar</p>
+<ng-template #canNotRegister>
+    <p>
+        O usuario não tem idade suficiente!
+    </p>
+</ng-template>
+

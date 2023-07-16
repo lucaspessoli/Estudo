@@ -1,0 +1,14 @@
+<p>two-way-binding works!</p>
+
+<form>
+    <input type="text" [(ngModel)]="name"
+    name="name"
+    placeholder="Digite seu nome"
+    />
+</form>
+
+<p *ngIf="name !== ''; else exibeSalve">Resultado do modulo: {{name}}</p>
+
+<ng-template #exibeSalve>
+    <p>Está vazio!</p>
+</ng-template>

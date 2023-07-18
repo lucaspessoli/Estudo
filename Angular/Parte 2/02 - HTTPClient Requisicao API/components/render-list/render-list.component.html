@@ -1,0 +1,10 @@
+<div *ngIf="canShowAnimals === true">
+    <p *ngFor="let index of listaAnimais">{{index.name}}
+        <button (click)="showAnimalDetails(index)">Exibir informação completa.</button>
+        <button (click)="removeAnimal(index)">Remover animal</button>
+    </p>
+</div>
+
+<button (click)="showAnimals()">Exibir Animais</button>
+<p>{{animalDetails}}</p>
+
